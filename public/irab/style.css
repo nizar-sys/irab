@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+body{
+    font-family: 'PT Sans', sans-serif;
+
+}
+.navbar{
+    background: linear-gradient(to right, #64BE38, #60d327);
+}
+.nav-link{
+    color: white !important;
+    font-style: italic;
+}
+.nav-link:hover{
+    color: rgb(191, 225, 255) !important;
+    text-decoration: underline;
+    text-underline-offset: 1.2rem;
+}
+.banner{
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./meet.jpg)  no-repeat center/cover
+}
+.acc{
+    height: 40vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./meet.jpg)  no-repeat center/cover
+}
+.logo{
+    width: clamp(200px, 27%,  400px);
+    margin-top: 80px;
+}
+.ds{
+    width: 100%;
+    height: clamp(200px, 30%,  400px);
+}
+
+main{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.title{
+    text-decoration: underline;
+    text-underline-offset: 1.2rem;
+    text-decoration-color: #64BE38;
+}
+
+
+.bg-blue{
+    background-color: #64BE38;
+}
+
+#acc{
+    background-color: rgb(247, 247, 247);
+}
+
+#ac{
+    background-color: rgb(247, 247, 247);
+}
+
+
+
+footer{
+    margin-top: 100px;
+}
+
+.form-acc{
+    width: 70%;
+}
